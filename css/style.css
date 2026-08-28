@@ -1,0 +1,37 @@
+.callout {
+    background-color: rgb(32, 34, 34 );  
+    opacity: 0.8;
+    color: aliceblue;
+}
+.btn-primary, bg-primary{
+
+    background-color: blueviolet;
+    border: none;
+
+}
+
+.bi-balloon-heart {
+    display: inline-block;
+    font-size: 50px;
+    color: blueviolet;
+    animation: sobeDesce 1.2s ease-in-out infinite;
+
+}
+
+
+@keyframes sobeDesce {
+    0%{ /* de zero a 4 eu ando menos vinte */ 
+        transform: translateY(0); 
+    }
+    25% { 
+        transform: translateY(-20px);
+    }
+    50% { 
+        color: brown;
+        transform: translateY(20px);
+    }
+    50% { 
+        color: rgb(211, 27, 171);
+        transform: translateX(200px);
+    }
+}
